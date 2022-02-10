@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vkusvil</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <section class="header">
+        <h1 class="header-title">
+            Поддержка здесь
+        </h1>
+        <p class="header-text">
+            Мы любим общаться и рады всем отзывам, вопросам и предложениям. Выберите удобный способ
+        </p>
+        <div class="header-buttons">
+            <button class="header-btn1 btn-reset btn">Онлайн-чат</button>
+            <button class="header-btn2 btn-reset btn">Позвонить</button>
+            <button class="header-btn3 btn-reset btn">Почта</button>
+            <button class="header-btn4 btn-reset btn">Отзыв о сайте</button>
+        </div>
+    </section>
+    <section class="join">
+        <div class="row">
+            <p class="main-join">
+                Социальные сети и сообщество
+            </p>
+            <h2 class="subtitle">
+                Присоединяйтесь
+            </h2>
+        </div>
+        <ul class="social flex list-reset">
+            <li class="social-item">
+                <button class="social-link social-VK btn-reset"></button>
+            </li>
+            <li class="social-item">
+                <button class="social-link social-insta btn-reset"></button>
+            </li>
+            <li class="social-item">
+                <button class="social-link social-tiktok btn-reset"></button>
+            </li>
+            <li class="social-item">
+                <button class="social-link social-twit btn-reset"></button>
+            </li>
+            <li class="social-item">
+                <button class="social-link social-share btn-reset"></button>
+            </li>
+            <li class="social-item">
+                <button class="social-link social-face btn-reset"></button>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="faq-title">
+            Часто задаваемые вопросы
+        </h2>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <a href="delivery.html" class="swiper-slide slide-one">
+                    <p class="slider-subtitle swiper-slide-title slider1-indent">Где работает доставка?</p>
+                    <img src="IMG/Shopbag.png" alt="">
+                </a>
+                <a href="" class="swiper-slide">
+                    <p class="slider-subtitle">Где работает доставка?</p>
+                    <p class="subtitle_description slider-description-indent">Карта лояльности с вашим номером покупателя. Это карта лояльности с вашим</p>
+                </a>
+                <a href="" class="swiper-slide slide-one">
+                    <div class="slider3-description">
+                        <p class="slider-subtitle swiper-slide-title">Где работает доставка?</p>
+                        <p class="subtitle_description slider-description-indent">Карта лояльности с вашим номером </p>
+                    </div>
+                    <img src="IMG/Shopbag.png" alt="">
+                </a>
+                <a href="" class="subtitle swiper-slide">
+                    <p class="slider-subtitle">В какое время возможен<br>самовывоз В какое<br>время возможен<br>самовывоз?</p>
+                    <p class="subtitle_description slider-description-indent">Карта лояльности с вашим </p>
+                </a>
+                <a href="" class="swiper-slide">
+                    <p class="slider-subtitle">Где работает доставка?</p>
+                    <p class="subtitle_description slider-description-indent">Карта лояльности с вашим номером покупателя.<br>Это карта лояльности с вашим</p>
+                </a>
+                <a href="" class="swiper-slide">
+                    <p class="slider-subtitle">Где работает доставка?</p>
+                    <p class="subtitle_description slider-description-indent">Карта лояльности с вашим номером покупателя. Это карта лояльности с вашим</p>
+                </a>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <section class="reference">
+        <div class="reference-container">
+            <h2 class="reference-title h2">
+                Справка
+            </h2>
+            <a class="reference-item" href="#">
+                <h3 class="reference-subtitle">Бережная сборка</h3>
+            </a>
+            <a class="reference-item" href="#">
+                <h3 class="reference-subtitle">Способы доставки и самовывоза</h3>
+                <p class="reference-description">Это карта лояльности с вашим номером покупат Это карта лояльности с вашим номером покупат</p>
+            </a>
+            <a class="reference-item" href="#">
+                <h3 class="reference-subtitle">Минимальная сумма заказа</h3>
+            </a>
+            <a class="reference-item" href="#">
+                <h3 class="reference-subtitle">Лёгкий возврат</h3>
+                <p class="reference-description">Это карта лояльности с вашим номером покупат Это карта лояльности с вашим номером покупат</p>
+            </a>
+        </div>
+    </section>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            direction: 'horizontal',
+            slidesPerView: '4',
+            spaceBetween: 24,
+            grabCursor: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+            1100: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+
+            720: {
+                slidesPerView: 3,
+            },
+
+            490: {
+                slidesPerView: 2,
+            },
+
+            250: {
+                slidesPerView: 1.2,
+            }
+        }
+        });
+    </script>   
+</body>
+</html>

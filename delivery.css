@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src:local('MuseoSansCyrl-Bold'), 
+        url('../вкусвил/fonts/MuseoSansCyrl-700.ttf') format("ttf"),
+        url('../вкусвил/fonts/MuseoSansCyrl-700.woff') format("woff");
+    font-weight: 700;
+    font-style: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src:local('MuseoSansCyrl-Black'), 
+        url('../вкусвил/fonts/MuseoSansCyrl-900.ttf') format("ttf"),
+        url('../вкусвил/fonts/MuseoSansCyrl-900.woff') format("woff");
+    font-weight: 900;
+    font-style: black;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src:local('MuseoSansCyrl-Medium'), 
+        url('../вкусвил/fonts/MuseoSansCyrl-500.ttf') format("ttf"),
+        url('../вкусвил/fonts/MuseoSansCyrl-500.woff') format("woff");
+    font-weight: 500;
+    font-style: medium;
+    font-display: swap;
+}
+
+.delivery {
+    font-family: 'MuseoSansCyrl';
+    padding: 22px 40px;
+}
+
+.delivery__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #1A1A1A;
+    margin-bottom: 16px;
+    background-image: url(IMG/share.svg);
+    background-repeat: no-repeat;
+    background-position: 290px 4px;
+}
+
+.delivery__description {
+    max-width: 690px;
+    font-size: 15px;
+    line-height: 140%;
+    color: #1A1A1A;
+    margin-bottom: 40px;
+}
+
+.delivery__subtitle {
+    font-size: 13px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #1A1A1A;
+    margin-bottom: 16px;
+}
+
+.btn__reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn__reset:not(:last-child) {
+    margin-right: 8px;
+}
+
+.btn__chat {
+    background: #36BA5F;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: center;
+    background-image: url(IMG/Mess.png);
+    background-repeat: no-repeat;
+    background-position: 47px center;
+    padding: 15px 71.3px;
+}
+
+.btn__phone,
+.btn__mess {
+    background: #F9F9F9;
+    border-radius: 12px;
+    width: 48px;
+    height: 48px;
+}

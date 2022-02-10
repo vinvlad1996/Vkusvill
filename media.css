@@ -1,0 +1,212 @@
+@media (max-width:1020px) {
+    .reference {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header {
+        background-size: 20%;
+        background-position: left bottom, right center;
+        right: 20px;
+    }
+
+    .join {
+        max-width: 800px;
+    }
+
+    .main-join {
+        padding-top: 30px;
+        padding-bottom: 16px;
+        font-size: 13px;
+        line-height: 100%;
+    }
+    
+    .subtitle {
+        font-size: 30px;
+        line-height: 100%;
+        padding-bottom: 30px;
+    }
+    .faq-title,
+    .h2 {
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    .social-link {
+        width: 45px;
+        height: 45px;
+    }
+
+    .swiper,
+    .faq-title {
+        margin-bottom: 60px;
+    }
+
+    .faq-title {
+        margin-top: 60px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        opacity: 0.5;
+    }
+}
+
+@media (max-width:830px) {
+    .join {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:935px) {
+    .header {
+        background-size: 20%;
+        background-position: left center, right center;
+    }
+}
+
+@media (max-width:705px) {
+    .header {
+        margin-top: 20px;
+        background-size: 20%;
+        background-position: left center, right bottom;
+    }
+
+    .header-title {
+        font-weight: 900;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 40px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+
+    .join {
+        margin-top: 40px;
+    }
+
+    .faq-title {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .swiper {
+        margin-bottom: 40px;
+    }
+
+    .header-buttons {
+        grid-template-columns: repeat(2, 160px);
+        grid-template-rows: repeat(2, 48px);
+        gap: 8px;
+    }
+
+    .join {
+        flex-direction: column;
+    }   
+
+    .row,
+    .social {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .social-link {
+        margin-bottom: 30px;
+    }
+
+    .subtitle {
+        padding-bottom: 16px;
+    }
+
+}
+
+@media (max-width:424px) {
+    .header {
+        background-size: 30%;
+        background-position: left bottom, right bottom;
+    }
+
+    .header-title {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 30px;
+        line-height: 80%;
+    }
+
+    .header-text {
+        padding-bottom: 20px;
+        font-size: 13px;
+        line-height: 100%;
+    }
+
+    .header-buttons {
+        grid-template-columns: repeat(1, 150px);
+        grid-template-rows: repeat(4, 29px);
+    }
+
+    .btn {
+        height: 29px;
+        width: 150px;
+    }
+
+    .subtitle {
+        margin-bottom: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+    .social {
+        display: grid;
+        grid-template-columns: repeat(3, 50px);
+        grid-template-rows: repeat(2, 50px);
+        gap: 8px;
+    }
+
+    .faq-title,
+    .h2 {
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+    /* .swiper {
+        max-width: 260px;
+        margin-bottom: 15px;
+    } */
+
+    .swiper-slide {
+        width: 260px;
+        height: 120px;
+    }
+
+    .swiper-slide-title {
+        max-width: 100px;
+    }
+
+    .slider-subtitle,
+    .reference-subtitle {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+    }
+
+    .reference-description {
+        font-size: 12px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 100px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+    }
+
+    .reference-item ::before {
+        right: 10px;
+    }
+}
