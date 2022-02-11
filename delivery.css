@@ -104,6 +104,11 @@
         padding: 15px 40px;
         background-position: 15px center;
     }
+
+    .delivery__title {
+        max-width: 274px;
+        background-position: 170px 24px;
+    }
 }
 
 @media (max-width:362px) {
