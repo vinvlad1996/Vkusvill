@@ -9,6 +9,19 @@ a {
     color: inherit;
 }
 
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 @font-face {
     font-family: 'MuseoSansCyrl';
     src:local('MuseoSansCyrl-Bold'), 
@@ -42,8 +55,7 @@ a {
 body {
     font-family: 'MuseoSansCyrl';
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .header {
@@ -64,9 +76,8 @@ body {
 }
 
 .header-title {
-    font-weight: 900;   
-    padding-top: 40px;
-    padding-bottom: 4px;
+    font-weight: 900;  
+    padding: 40px 15px 4px;
     font-size: 60px;
     line-height: 120%;
     color: #FFFFFF;
@@ -74,9 +85,8 @@ body {
 
 .header-text {
     max-width: 535px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 40px;
+    margin: 0 auto;
+    padding: 0px 10px 40px;
     font-size: 17px;
     line-height: 140%;
     color: #FFFFFF;
@@ -88,13 +98,6 @@ body {
     grid-template-rows: repeat(1, 48px);
     column-gap: 8px;
     justify-content: center;
-}
-
-.btn-reset {
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
 }
 
 .btn {
@@ -109,40 +112,25 @@ body {
 }
 
 .header-btn1 {
-    background: url(IMG/1.svg);
-    background-repeat: no-repeat;
-    background-position: 21px center;
-    background-color: #FFFFFF;
+    background: url(IMG/1.svg) #FFFFFF no-repeat 21px center ;
 }
 
 .header-btn2 {
-    background: url(IMG/2.svg);
-    background-repeat: no-repeat;
-    background-position: 26px center;
-    background-color: #FFFFFF;
+    background: url(IMG/2.svg) #FFFFFF no-repeat 26px center;
 }
 
 .header-btn3 {
-    background: url(IMG/3.svg);
-    background-repeat: no-repeat;
-    background-position: 40px center;
-    background-color: #FFFFFF;
+    background: url(IMG/3.svg) #FFFFFF no-repeat 40px center;
 }
 
 .header-btn4 {
-    background: url(IMG/4.svg);
-    background-repeat: no-repeat;
-    background-position: 13px center;
-    background-color: #FFFFFF;
+    background: url(IMG/4.svg) #FFFFFF no-repeat 13px center;
     padding-left: 10px;
 }
 
 .join {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 82px auto 0;
     max-width: 996px;
-    margin-top: 82px;
-    text-align: left;
     padding-left: 40px;
     background-color: #FFFFFF;
     box-shadow: 0px 20px 60px rgba(26, 26, 26, 0.05);
@@ -151,8 +139,7 @@ body {
 }
 
 .main-join {
-    padding-top: 42px;
-    padding-bottom: 16px;
+    padding: 42px 0 16px;
     font-size: 15px;
     line-height: 120%;
     color: #1A1A1A;
@@ -165,26 +152,18 @@ body {
     padding-bottom: 42px;
 }
 
-.list-reset {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
 .social-item:not(:last-child) {
     margin-right: 14px;
 }
 
 .social-link {
     display: block;
-    background-repeat: no-repeat;
+    background: #F9F9F9 no-repeat center;
     position: center;
     width: 56px;
     height: 56px;
     border: 1px solid #F9F9F9;
-    background-color: #F9F9F9;
     border-radius:13.3311px;
-    background-position: center;
 }
 
 .flex {
@@ -199,10 +178,7 @@ body {
 }
 
 .social-VK {
-    background: url(IMG/VK.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #F9F9F9;
+    background: url(IMG/VK.svg) #F9F9F9 no-repeat center;
 }
 
 .social-insta {
@@ -226,12 +202,11 @@ body {
 }
 
 .faq-title {
-    margin-top: 80px;
+    margin: 80px 0 32px;
     text-align: center;
     font-size: 40px;
     line-height: 120%;
     color: #1A1A1A;
-    margin-bottom: 32px;
 }
 
 .swiper {
@@ -292,8 +267,6 @@ body {
 
 .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
     opacity: 0;
-    cursor: auto;
-    pointer-events: none;
 }
 
 .swiper-button-next, .swiper-button-prev {
@@ -304,9 +277,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     z-index: 1;
-    background-color: #fff;
+    background-color: #FFFFFF;
     border-radius: 50%;
-    border: 0;
     background-size: 8px;
     box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.09);
 }
@@ -326,8 +298,7 @@ body {
 
 .reference-container {
     max-width: 996px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
 }
 
 .reference-item:not(:last-child) {

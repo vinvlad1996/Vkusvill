@@ -98,3 +98,18 @@
     width: 48px;
     height: 48px;
 }
+
+@media (max-width:425px) {
+    .btn__chat {
+        padding: 15px 40px;
+        background-position: 15px center;
+    }
+}
+
+@media (max-width:362px) {
+    .btn__phone,
+    .btn__mess {
+        margin-top: 10px;
+    }
+}
+

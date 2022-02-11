@@ -1,6 +1,6 @@
 @media (max-width:1020px) {
     .reference {
-        padding-left: 10px;
+        padding-left: 20px;
         padding-right: 10px;
     }
 
@@ -48,7 +48,7 @@
 
     .swiper-button-next,
     .swiper-button-prev {
-        opacity: 0.5;
+        opacity: 0.6;
     }
 }
 
@@ -74,12 +74,10 @@
     }
 
     .header-title {
-        font-weight: 900;
         padding-top: 20px;
         padding-bottom: 10px;
         font-size: 40px;
         line-height: 100%;
-        color: #FFFFFF;
     }
 
     .join {
@@ -151,9 +149,7 @@
     }
 
     .subtitle {
-        margin-bottom: 20px;
-        margin-right: auto;
-        margin-left: auto;
+        margin: 0 auto 20px;
         font-size: 20px;
         line-height: 100%;
     }
@@ -170,11 +166,6 @@
         font-size: 20px;
         line-height: 100%;
     }
-
-    /* .swiper {
-        max-width: 260px;
-        margin-bottom: 15px;
-    } */
 
     .swiper-slide {
         width: 260px;
